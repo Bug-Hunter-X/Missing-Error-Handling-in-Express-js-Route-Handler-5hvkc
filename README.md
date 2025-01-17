@@ -1,0 +1,3 @@
+# Missing Error Handling in Express.js Route Handler
+
+This repository demonstrates a common error in Express.js route handlers: the lack of proper error handling for invalid input or unexpected conditions.  The example shows a route that fetches user data based on an ID.  If an invalid ID is provided, the application might crash or return an unhelpful error message to the client. The solution demonstrates how to gracefully handle such errors and provide appropriate responses.
